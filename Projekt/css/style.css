@@ -1,0 +1,181 @@
+/* === Body === */
+body {
+    position: relative;
+    background: #333;
+  }
+
+body,
+p{
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-alt {
+    font-family: 'Francois One', sans-serif;
+
+}
+/* Farben */
+.bg-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.5);
+    position: absolute;
+    top: 0;
+}
+section .container{
+    position: relative;
+}
+/* Section */
+#willkommen{
+    padding: 140px 0;
+}
+
+#home .container{
+    height: 100%;
+
+}
+
+#home .row{
+    height: 80%;
+}
+/* ---Navigation--- */
+
+.navbar-toggler-icon{
+    text-decoration:  #333;
+}
+
+
+nav {
+    transition: 0.7s ease-in-out;
+}
+
+nav.navbar.navbar-dark button:hover,
+nav.navbar.navbar-dark button:focus,
+nav.navbar.navbar-dark .nav-link:hover {
+    color: #fff;
+
+}
+
+.navbar-nav .badge{
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+.navbar .icon-equalizer,
+.navbar .navbar-brand {
+    font-size: 1.5em;
+    line-height: 0;
+    color: #333;
+}
+.navbar.bg-white .navbar-nav .nav-link,
+.navbar.bg-white a,
+.navbar.bg-white a:hover,
+.navbar.bg-white button {
+    color: #333;
+}
+
+.navbar.bg-white button {
+    border-color: rgba(51, 51, 51, 0.6);
+}
+.navbar .navbar-nav .nav-link{
+    color: #333;
+}
+
+
+/* ---Willkommen--- */
+.willkommen-bg {
+    background: url(../img/Mountains-1412683.svg) 50% 0 fixed no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+#Willkommen .rounded-circle {
+    border: 2px solid #dc3545;
+}
+
+.para{
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px #333;
+    border-radius: 15px;
+}
+
+/* === Termin === */
+#termine{
+    padding: 50px;
+}
+/* === last gicks === */
+#lastgicks{
+    background: url(../img/gitarre-star.jpg) ;
+    background-size: cover;
+    position: relative;
+}
+#lastgicks > .container{
+    padding-bottom: 100px;
+}
+/* === Youtube === */
+.vid{
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+/* === merchandise === */
+#merchandise .container{
+    padding-bottom: 100px;
+ 
+}
+.merchandise-bg{
+    background: url(../img/moshpida.jpg) ;
+    background-size: cover;
+    
+}
+
+#carouselExampleDark{
+    width: 500px;    
+}
+#pro{
+    background-color: rgba(31, 27, 27, 0.9);
+    border-radius: 15px;
+    
+}
+.textcru{
+    background-color: #222;
+    border-radius: 15px;
+}
+/* === formula === */
+
+#fanservice{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.input-group-lg > .form-control {
+    border-radius: 30px;
+}
+ 
+.input-group-lg > .input-group-text {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.btn-round {
+    border-radius: 30px;
+}
+#band-icons{
+    display: flex ;
+    justify-content: space-around;
+}
+#band-icons  a{
+    text-decoration: none;
+    font-size: 60px;
+}
+
